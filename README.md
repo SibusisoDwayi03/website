@@ -47,3 +47,88 @@ course.</p1>
   </main>
 </body>
 </html>
+body {
+  font-family: Audiowide, sans-serif;
+  background-color: #382c2c;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  text-shadow: 2px 2px 5px red;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #787575;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+p{font-family: cooperplate, fantacy;
+}
+p1{
+	
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  text-align: justify;
+  text-justify: auto;
+  font-family: cooperplate, fantacy;
+  border-radius: 8px;
+  padding: 2px;
+  background-color: #8c8b8b;
+}
+p2{
+  font-family: cooperplate, fantacy;
+  text-align: center-right;
+}
+h3 {
+  margin-top: 0;
+  background-color: #555;
+    text-align: center;
+
+}
+.profile-picture {
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.details h2 {
+  margin-top: 0;
+  background-color: #555;
+    text-align: center;
+
+}
+
+.resume-link {
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px red;
+}
+
+.resume-link a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.resume-link a:hover {
+  background-color: #555;
+}
